@@ -1,0 +1,1 @@
+Функционално програмиране/Funcional programming
