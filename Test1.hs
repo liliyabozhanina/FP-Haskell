@@ -1,7 +1,7 @@
 import Data.Char
 import Data.List
 
-Задача 1. Да се дефинира функция checkNumber :: Integer -> (Integer, Integer), която намира сумата от цифрите с четни индекси 
+{- Задача 1. Да се дефинира функция checkNumber :: Integer -> (Integer, Integer), която намира сумата от цифрите с четни индекси 
 и сумата от цифрите с нечетни индекси в дадено естествено число и връща двете суми като двойка, първият елемент на която 
 съответства на сумата от цифрите с четни индекси. Приемаме, че цифрите на числото са индексирани от 0 и отляво надясно.
 Примери:
@@ -32,7 +32,7 @@ myFilter 10 [[1,2,3],[100,200],[10]] → [[1.0,2.0,3.0]]
 encode "Haskell" → "Haskell"
 encode "aaabccdefff" → "3abccde3f"
 encode "aaaaaaaaaaaabbb" → "12a3b"
-decode "12a3b" → "aaaaaaaaaaaabbb"
+decode "12a3b" → "aaaaaaaaaaaabbb" -}
 
 checkNumber :: Integer -> (Integer, Integer)
 checkNumber n = helper n 0 0 0
