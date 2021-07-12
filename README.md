@@ -1,2 +1,2 @@
-# FP-Haskell
+# FP
 Функционално програмиране/Funcional programming
